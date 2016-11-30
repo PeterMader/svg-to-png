@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SVG to data URL</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div id="image">
+      <canvas id="canvas" width="300" height="300"></canvas>
+    </div>
+    <div>
+      <div>Url: <input type="text" id="input-url" placeholder="path"></div>
+      <div>Width: <input type="number" id="input-width" placeholder="width" value="100"></div>
+      <label for="replace-white"><input type="checkbox" id="replace-white">Replace white with transparent</label>
+      <div><button id="submit">Load image</button></div>
+      <div><a href="#" id="output" target="_blank">No input file.</a></div>
+    </div>
+
+  </body>
+</html>
